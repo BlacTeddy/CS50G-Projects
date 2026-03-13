@@ -1,0 +1,19 @@
+body{
+    background: gray;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;    /* Vertical centering */
+    gap: 10px;
+}
+canvas{
+    /* height: 500px;
+    width: 250px; */
+     /* width : height = 2 : 1 */
+    /* aspect-ratio: 1 / 2; */
+    background: black;
+    border: 5px solid #b7b7b7;
+}

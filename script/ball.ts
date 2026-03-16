@@ -23,7 +23,7 @@ export class Ball{
         this.radius=width/2;
         this.speed=60;
         this.dx=this.speed*2;
-        this.dy=this.speed*2;
+        this.dy=this.speed*2.5;
 
         
     // collides(paddle: { x: number; y: number; width: number; height: number }): boolean {

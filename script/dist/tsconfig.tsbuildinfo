@@ -1,1 +1,1 @@
-{"root":["../ball.ts","../collision.ts","../constants.ts","../index.ts","../main.ts","../paddle.ts"],"version":"5.9.3"}
+{"root":["../ball.ts","../collision.ts","../constants.ts","../index.ts","../input.ts","../main.ts","../myfonts.ts","../paddle.ts"],"errors":true,"version":"5.9.3"}

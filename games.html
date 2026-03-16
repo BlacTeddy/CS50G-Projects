@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        /* @font-face {font-family: "font"; src: url("./fonts/font.ttf") format("truetype");} */
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Games</title>
 </head>
 <body>
-    <div class="container">
-        <canvas id="pong" width="300" height="600" ></canvas>
-        <!-- <canvas id="pong" width="10" height="10" ></canvas> -->
+    <div class="gameWrapper">
+        <div class="pongWrapper">
+            <button id="startPong" class="startBtn" ><strong>Start Game</strong></button>
+            <canvas id="pong" width="300" height="600" ></canvas>
+            <!-- <canvas id="pong" width="10" height="10" ></canvas> -->
+        </div>
+        <div class="flappyWrapper">
+            <button id="startFlappy"  class="startBtn"><strong>Placer Holder</strong></button>
+            <canvas id="pong" width="350" height="350" ></canvas>
+            <!-- <canvas id="pong" width="10" height="10" ></canvas> -->
+        </div>
     </div>
 
     <script type="module" src="script/dist/main.js"></script>

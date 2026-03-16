@@ -19,7 +19,7 @@ export class Ball {
         this.radius = width / 2;
         this.speed = 60;
         this.dx = this.speed * 2;
-        this.dy = this.speed * 2;
+        this.dy = this.speed * 2.5;
         // collides(paddle: { x: number; y: number; width: number; height: number }): boolean {
         // //  first, check to see if the left edge of either is farther to the right
         // //  than the right edge of the other

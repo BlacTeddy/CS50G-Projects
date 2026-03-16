@@ -1,13 +1,17 @@
 body{
     background: gray;
 }
-
-.container {
+.gameWrapper{
+    display: inline-flex;
+    gap: 10px;
+}
+.pongWrapper, .flappyWrapper {
+    position: relative;
     margin: auto;
     display: flex;
     justify-content: center; /* Horizontal centering */
     align-items: center;    /* Vertical centering */
-    gap: 10px;
+    /* gap: 10px; */
 }
 canvas{
     /* height: 500px;
@@ -16,4 +20,28 @@ canvas{
     /* aspect-ratio: 1 / 2; */
     background: black;
     border: 5px solid #b7b7b7;
+}
+
+.startBtn{
+    font-family: 'retro';
+    font-size: larger;
+    position: absolute;
+    background: black;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    z-index: 10;
+    border: 1px, solid, white;
+    /* border-top: 1px solid white;
+    border-bottom: 1px solid white; */
+}
+#startPong{
+    max-width: 300px;
+    /* border-top: 1px solid white;
+    border-bottom: 1px solid white; */
+}
+#startFlappy{
+    max-width: 350px;
+    /* border-top: 1px solid white;
+    border-bottom: 1px solid white; */
 }
